@@ -1,0 +1,46 @@
+/*
+Copyright Colin Hiriak & Alexandra Meads 2015
+*/
+
+
+* {
+    font-family: sans-serif;
+    margin: 2px;
+    margin-left: 3px;
+    //padding-left: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.red {
+    color: red;
+}
+
+#bullet  ul li {
+ margin-left: 5px;
+   list-style: circle;
+   display: list-item;
+}
+@media screen and (max-width: 500px) {
+    #hidebull {
+        visibility: hidden;
+    }
+  
+}
+@media screen and (min-width: 501px) {
+    #box {
+        text-align: center;
+    }
+    #nbull {
+        text-align: center;
+    }
+    #hidebull {
+        text-align: center;
+    }
+    
+}
